@@ -1,0 +1,75 @@
+.gallery {
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    column-width: 33%; 
+    }
+    .img-fluid{
+      -webkit-transition: all 1s;
+      transition: all 1s;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      
+    }
+    .img-fluid:hover{
+      -webkit-transform: translateY(-.5rem) scale(1.03);
+      transform: translateY(-.5rem) scale(1.03);
+      -webkit-filter: brightness(1.5);
+      filter: brightness(1.5);
+    }
+    @media (max-width: 450px) {
+    .gallery {
+    -webkit-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    column-width: 100%;
+    }
+    }
+    
+    @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    }
+    .btn-gallery{
+      background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(41, 152, 255, 0.85)), to(rgba(86, 67, 250, 0.85)));
+      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); 
+      color: #fff;
+      margin-right: 2rem;
+      margin-top: 4rem;
+      margin-bottom: 6rem;
+    }
+    .btn-gallery:hover{
+      color: #fff;
+    }
+    .jumbotron{
+      background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(41, 152, 255, 0.85)), to(rgba(86, 67, 250, 0.85)));
+      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); 
+      color: #fff;
+      margin-top: 2rem;
+      width: 98%
+    }
+    .jumbotron h1{
+      font-size: 3rem;
+      font-weight: 700;
+      background-image: -webkit-gradient(linear, left top, right bottom, from(#fffafa), to(#fff8f8));
+      background-image: linear-gradient(to right bottom, #fffafa, #fff8f8);
+      -webkit-background-clip: text;
+      color: transparent;
+      -webkit-transition: all .3s;
+      transition: all .3s;
+      margin-left: 5rem;
+    }
+    .jumbotron h1:hover{
+      -webkit-transform: skewY(2deg) skewX(15deg) scale(1.1);
+      transform: skewY(2deg) skewX(15deg) scale(1.1);
+      text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); 
+    }
+    .jumbotron p{
+      font-size: 1.8rem;
+      line-height: 1.6;
+      color: #fff; 
+      font-weight: 400;
+      margin-left: 5rem;
+    }

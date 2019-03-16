@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; 
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 2;
+  font-size: 2rem;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  background-color: #fff;
+  color: #555;
+}
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(..\..\hero.9051931b.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+header:hover{
+  opacity: 1;
+}
+#content{
+  text-align: center;
+  padding-top: 18%;
+  color: #fff;
+}
+h1{
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  font-weight: 200;
+}
+.btn{
+  font-size: 1.8rem;
+  padding: .5rem 3rem;
+  background-color: transparent;
+  color: #fff;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+ nav ul li a:link,
+ nav ul li a:visited{
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 3rem;
+}
+nav ul li a:hover,
+nav ul li a:active{
+color: #555;
+}
+.navbar-brand{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.fas{
+  margin-right: 1rem;
+}
+
+
+
+
+
+/*# sourceMappingURL=/style.d71b696e.css.map */

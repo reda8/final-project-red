@@ -1,0 +1,199 @@
+@media only screen and (max-width: 1200px) {
+    #center{
+        padding-top: 20%;
+      }
+      .heading-primary-main {
+        font-size: 2.8rem;
+        letter-spacing: 1.6rem;
+       }
+       .heading-primary-sub {
+        font-size: 1.8rem;
+        letter-spacing: 1.5;
+        margin-bottom: 3rem;
+      }
+      .btn, .btn:link, .btn:visited {
+        padding: 1.8rem 3.3rem;
+        font-size: 1.5rem;
+          }
+  
+@media only screen and (max-width: 1023px){ 
+    .heading-primary-main {
+        font-size: 2.6rem;
+        letter-spacing: 1rem;
+       }
+       .heading-primary-sub {
+        font-size: 1.5rem;
+        letter-spacing: 1.5rem;
+        margin-bottom: 3rem;
+      }
+      .btn,
+      .btn:link,
+      .btn:visited,
+      input[type=submit]{
+        padding: 1.5rem 3.3rem;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+          }
+    .contact-right { 
+        padding-left: 5%;
+        padding-right: 15%;
+      }
+      .contact-right h1{
+        margin-top: 3rem;
+        font-size: 2.5rem;
+      }
+      .contact-right input[type=text],
+      .contact-right input[type=email],
+      .contact-right textarea{
+        padding: .2rem .3rem;
+      }
+      input::-webkit-input-placeholder {
+        font-size: 1.2rem;
+      }
+      input:-ms-input-placeholder {
+        font-size: 1.2rem;
+      }
+      input::placeholder {
+        font-size: 1.2rem;
+      }
+      textarea::-webkit-input-placeholder{
+        font-size: 1.2rem;
+      }
+      textarea:-ms-input-placeholder{
+        font-size: 1.2rem;
+      }
+      textarea::placeholder{
+        font-size: 1.2rem;
+      }
+      .contact-right textarea {
+          height: 10rem;
+      }
+      .btn-blue:link , .btn-blue:visited{
+        padding: 1.2rem 2rem;
+        color: #fff;
+        font-size: 1.4rem;
+        margin-bottom: 4rem;
+      }
+      footer{
+          margin-top: -11.3rem;
+      }
+      #center{
+        padding-top: 20%;
+      }
+}
+@media only screen and (max-width: 900px) {
+    .heading-primary-main {
+        font-size: 2.3rem;
+        letter-spacing: 1rem;
+       }
+       .heading-primary-sub {
+        font-size: 1.3rem;
+        letter-spacing: 1.3rem;
+        margin-bottom: 3rem;
+      }
+      .btn,
+      .btn:link,
+      .btn:visited,
+      input[type=submit]{
+        padding: 1.5rem 3rem;
+        font-size: 1.5rem;
+        margin-bottom: 2rem
+          }
+    .navigation-button {
+      top: 4rem;
+      right: 4rem; 
+    } 
+    .navigation-background {
+        top: 4.5rem;
+        right: 4.5rem; 
+      } 
+    
+    .heading-primary--main {
+        letter-spacing: .5rem;
+        font-size: 3rem; 
+    } 
+      .heading-primary--sub {
+        letter-spacing: .3rem;
+     }
+     #center{
+        padding-top: 20%;
+      }
+    }
+@media only screen and (max-width: 767px){
+    .heading-primary-main {
+        font-size: 2rem;
+        letter-spacing: .8rem;
+       }
+       .heading-primary-sub {
+        font-size: 1.3rem;
+        letter-spacing: 1.2rem;
+        margin-bottom: 2.5rem;
+      }
+    .about-right h1, .about-right p{
+        padding-left: 2rem;
+    }
+    #center{
+        padding-top: 25%;
+      }
+      .btn, .btn:link, .btn:visited {
+        padding: 1.2rem 2.5rem;
+        font-size: 1.3rem;
+          }
+          #center{
+            padding-top: 20%;
+          }
+     
+      
+}
+  @media only screen and (max-width: 600px) {
+    .heading-primary-main {
+        font-size: 1.7rem;
+        letter-spacing: .8rem;
+       }
+       .heading-primary-sub {
+        font-size: 1.3rem;
+        letter-spacing: .8rem;
+        margin-bottom: 2.3rem;
+      }
+      #center{
+        padding-top: 40%;
+      }
+    .navigation-button {
+      top: 3rem;
+      right: 3rem; 
+    }
+    .navigation-background {
+        top: 3.5rem;
+        right: 3.5rem; 
+    } 
+    .btn, .btn:link, .btn:visited {
+        padding: 1rem 2rem;
+        font-size: 1.3rem;
+          }
+      }
+    
+ 
+@media only screen and (max-width: 480px){
+    .heading-primary-main {
+        font-size: 1.3rem;
+        letter-spacing: .6rem;
+       }
+       .heading-primary-sub {
+        font-size: 1.3rem;
+        letter-spacing: .5rem;
+        margin-bottom: 2.5rem;
+      }
+      .btn, .btn:link, .btn:visited {
+        padding: 1rem 1.5rem;
+        font-size: 1.2rem;
+          }
+    #center{
+        padding-top: 50%;
+      }
+}
+.btn-blue:link , .btn-blue:visited{
+    padding: 1.5rem 4rem;
+    color: #fff;
+    font-size: 1.4rem;
+  }
+}
