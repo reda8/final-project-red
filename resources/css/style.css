@@ -540,6 +540,9 @@ input[type=submit]{
   padding-left: 5%;
   padding-right: 15%;
 }
+button{
+  margin-left: 18rem
+}
 .contact-right h1{
   margin-top: 4rem;
   margin-bottom: 2rem;

@@ -17,6 +17,12 @@
           }
   
 @media only screen and (max-width: 1023px){ 
+  .navigation-link:link, .navigation-link:visited {
+    display: inline-block;
+    font-size: 2.2rem;
+    font-weight: 400;
+    padding: .7rem 1.3rem;
+  }
     .heading-primary-main {
         font-size: 2.6rem;
         letter-spacing: 1rem;
@@ -82,6 +88,42 @@
       }
 }
 @media only screen and (max-width: 900px) {
+  .navigation-background {
+    height: 5rem;
+    width: 5rem;
+    top: 5.5rem;
+    right: 4.5rem;
+  }
+  .navigation-button {
+    height: 6.5rem;
+    width: 6.5rem;
+    top:5.5rem;
+  }
+  .navigation-icon::before {
+    top: -.7rem; 
+  }
+  .navigation-icon::after {
+    top: .7rem;
+   }
+   .navigation-icon {
+    position: relative;
+    margin-top: 3.3rem;
+  }
+  .navigation-link:link, .navigation-link:visited {
+    display: inline-block;
+    font-size: 2.2rem;
+    font-weight: 400;
+    padding: .7rem 1.3rem;
+  }
+  .navigation-button:hover .navigation-icon::before {
+    top: -.8rem; 
+  }
+  .navigation-button:hover .navigation-icon::after {
+    top: .8rem;
+  }
+  .navigation-checkbox:checked + .navigation-button .navigation-icon {
+    background-color: transparent; 
+  }
     .heading-primary-main {
         font-size: 2.3rem;
         letter-spacing: 1rem;
@@ -120,6 +162,42 @@
       }
     }
 @media only screen and (max-width: 767px){
+  .navigation-background {
+    height: 4.5rem;
+    width: 4.5rem;
+    top: 5.7rem;
+    right: 4.5rem;
+  }
+  .navigation-button {
+    height: 6rem;
+    width: 6rem;
+    top:5.5rem;
+  }
+  .navigation-icon::before {
+    top: -.7rem; 
+  }
+  .navigation-icon::after {
+    top: .7rem;
+   }
+   .navigation-icon {
+    position: relative;
+    margin-top: 2.9rem;
+  }
+  .navigation-link:link, .navigation-link:visited {
+    display: inline-block;
+    font-size: 2.2rem;
+    font-weight: 400;
+    padding: .7rem 1.3rem;
+  }
+  .navigation-button:hover .navigation-icon::before {
+    top: -.8rem; 
+  }
+  .navigation-button:hover .navigation-icon::after {
+    top: .8rem;
+  }
+  .navigation-checkbox:checked + .navigation-button .navigation-icon {
+    background-color: transparent; 
+  }
     .heading-primary-main {
         font-size: 2rem;
         letter-spacing: .8rem;
@@ -146,6 +224,42 @@
       
 }
   @media only screen and (max-width: 600px) {
+    .navigation-background {
+      height: 4.5rem;
+      width: 4.5rem;
+      top: 5.5rem;
+      right: 3.7rem;
+    }
+    .navigation-button {
+      height: 5.5rem;
+      width: 5.5rem;
+      top:5.5rem;
+    }
+    .navigation-icon::before {
+      top: -.7rem; 
+    }
+    .navigation-icon::after {
+      top: .7rem;
+     }
+     .navigation-icon {
+      position: relative;
+      margin-top: 2.7rem;
+    }
+    .navigation-link:link, .navigation-link:visited {
+      display: inline-block;
+      font-size: 2.2rem;
+      font-weight: 400;
+      padding: .7rem 1.3rem;
+    }
+    .navigation-button:hover .navigation-icon::before {
+      top: -.8rem; 
+    }
+    .navigation-button:hover .navigation-icon::after {
+      top: .8rem;
+    }
+    .navigation-checkbox:checked + .navigation-button .navigation-icon {
+      background-color: transparent; 
+    }
     .heading-primary-main {
         font-size: 1.7rem;
         letter-spacing: .8rem;
@@ -174,6 +288,42 @@
     
  
 @media only screen and (max-width: 480px){
+  .navigation-background {
+    height: 4.5rem;
+    width: 4.5rem;
+    top: 5.7rem;
+    right: 3.5rem;
+  }
+  .navigation-button {
+    height: 5.5rem;
+    width: 5.5rem;
+    top:5.5rem;
+  }
+  .navigation-icon::before {
+    top: -.7rem; 
+  }
+  .navigation-icon::after {
+    top: .7rem;
+   }
+   .navigation-icon {
+    position: relative;
+    margin-top: 2.7rem;
+  }
+  .navigation-link:link, .navigation-link:visited {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: .5rem 1rem;
+  }
+  .navigation-button:hover .navigation-icon::before {
+    top: -.8rem; 
+  }
+  .navigation-button:hover .navigation-icon::after {
+    top: .8rem;
+  }
+  .navigation-checkbox:checked + .navigation-button .navigation-icon {
+    background-color: transparent; 
+  }
     .heading-primary-main {
         font-size: 1.3rem;
         letter-spacing: .6rem;
